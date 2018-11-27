@@ -10,5 +10,5 @@ otherDeli  = ["Steven", "Blake", "Avi"];
     
   }
   
-  return "Welcome, " + katzDeli + "." + " You are number 4 in line.";
+  return "Welcome, " + katzDeli[i] + "." + " You are number 4 in line.";
 }
