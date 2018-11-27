@@ -1,17 +1,5 @@
-function takeANumber(otherDeli, num) {
+function takeANumber(katzDeli, name) {
   
-var katzDeli = [];
-
-otherDeli  = ["Steven", "Blake", "Avi"];
-
-
-  for( var i=0; i < otherDeli.length; i++ ) {
-    
-   katzDeli.push(otherDeli[i] + num);
-    
-  }
-  
-  return "Welcome, " + katzDeli[0] + "." + " You are number" + num + "in line.";
+  katzDeli.push(`${name}`);
+  return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 }
-
-takeANumber("Steven", 1);
