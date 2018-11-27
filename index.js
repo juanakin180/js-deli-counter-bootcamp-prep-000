@@ -6,16 +6,16 @@ function takeANumber(katzDeli, name) {
   
 }
 
-function nowServing(katsDeli) {
+function nowServing(katzDeli) {
   
-  if (katsDeli === 0) {
+  if (katzDeli === 0) {
     
      return "There is nobody waiting to be served!";
   }
   
   else {
     
-   return katsDeli.remove(`${name}`);
+   return katzDeli.remove(`${name}`);
    
   }
 }
