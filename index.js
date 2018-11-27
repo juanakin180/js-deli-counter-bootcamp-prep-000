@@ -10,7 +10,7 @@ function nowServing(katzDeli) {
   
   if (katzDeli === 0) {
     
-     "There is nobody waiting to be served!";
+     console.log("There is nobody waiting to be served!");
   }
   
   else {
