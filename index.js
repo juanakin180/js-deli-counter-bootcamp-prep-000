@@ -11,7 +11,7 @@ otherDeli  = ["Steven", "Blake", "Avi"];
     
   }
   
-  return "Welcome, " + katzDeli[i] + "." + " You are number" + num + "in line.";
+  return "Welcome, " + katzDeli[0] + "." + " You are number" + num + "in line.";
 }
 
 takeANumber();
