@@ -1,6 +1,7 @@
 function takeANumber(otherDeli, num) {
   
 var katzDeli = [];
+
 otherDeli  = ["Steven", "Blake", "Avi"];
 
 
