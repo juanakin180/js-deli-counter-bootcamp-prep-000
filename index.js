@@ -1,4 +1,4 @@
-function takeANumber(otherDeli) {
+function takeANumber(otherDeli, num) {
   
 var katzDeli = [];
 
@@ -11,5 +11,5 @@ otherDeli  = ["Steven", "Blake", "Avi"];
     
   }
   
-  return "Welcome, " + "Ada" + "." + " You are number 1 in line.";
+  return "Welcome, " + katzDeli[i] + "." + " You are number" + num + "in line.";
 }
