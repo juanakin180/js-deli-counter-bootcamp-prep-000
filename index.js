@@ -15,7 +15,7 @@ function nowServing(katzDeli) {
   
   else {
    
-   return array;
+   return "hello";
    
   }
 }
