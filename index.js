@@ -15,7 +15,7 @@ function nowServing(katzDeli) {
   
   else {
     
-   return katzDeli(`${name}`);
+  katzDeli(`${name}`);
    
   }
 }
