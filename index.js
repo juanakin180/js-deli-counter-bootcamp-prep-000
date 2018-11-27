@@ -1,4 +1,4 @@
-function takeANumber(otherDeli, num) {
+function takeANumber(otherDeli) {
   
 var katzDeli = [];
 
