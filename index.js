@@ -15,8 +15,9 @@ function nowServing(katsDeliLine) {
   
   else {
     
-    
+    return katsDeliLine(`${name}`);
    
   }
+}
   
   
