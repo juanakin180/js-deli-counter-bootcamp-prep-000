@@ -7,7 +7,7 @@ otherDeli  = ["Steven", "Blake", "Avi"];
 
   for( var i=0; i < otherDeli.length; i++ ) {
     
-   katzDeli.push(otherDeli[i]);
+   katzDeli.push(otherDeli[i] + num);
     
   }
   
