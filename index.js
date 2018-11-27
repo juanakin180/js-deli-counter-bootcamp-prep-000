@@ -14,8 +14,8 @@ function nowServing(katzDeli) {
   }
   
   else {
-    
-  katzDeli(`${name}`);
+   
+   return array;
    
   }
 }
