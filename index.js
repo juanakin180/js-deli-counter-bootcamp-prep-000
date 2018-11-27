@@ -15,9 +15,11 @@ function nowServing(katsDeliLine) {
   
   else {
     
-    return katsDeliLine(`${name}`);
+    katsDeliLine.remove(`${name}`);
    
   }
+  
+  return katsDeliLine;
 }
   
   
