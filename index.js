@@ -8,14 +8,14 @@ function takeANumber(katzDeli, name) {
 
 function nowServing(katzDeli) {
   
-  if (katzDeli === 0) {
+  if ( katzDeli === katzDeli.length ) {
     
-     console.log("There is nobody waiting to be served!");
+     return `${name}`;
   }
   
   else {
    
-   return "hello";
+   return "There is nobody waiting to be served";
    
   }
 }
